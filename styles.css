@@ -1,0 +1,399 @@
+
+
+
+body {
+background-color: rgb(255, 253, 244);
+color: rgb(188, 188, 255);
+font-family: 'Inter', sans-serif; 
+    
+}
+
+nav {
+background-color: rgb(153, 171, 243);
+padding: 0px; 
+position: sticky;
+top: 0;
+z-index: 1000;
+}
+
+.nav-container {
+  max-width: 1200px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 1.5rem;
+  /*margin-top: 10px;*/
+}
+
+.nav-brand i {
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position : relative;
+    justify-content: center;;
+    display: flex;
+    border-radius: 120;
+    gap: 1.5rem;
+}
+
+nav li {
+    color: white;
+    place-content: center;
+    margin-right: 25px;
+    font-weight: bold;
+    position: relative;
+    padding: 1px;
+}
+
+nav li:hover{
+    text-transform: initial;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 237, 102);
+    transition: background-color 0.3s ease;
+}
+
+
+section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+}
+
+
+.intro-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 10rem;
+  flex-wrap:nowrap;
+}
+.intro-text h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #030303;
+}
+
+.intro-text h2 {
+  font-size: 25px;
+  color: rgb(37, 37, 37);
+  font-weight: normal;
+  place-content:center;
+  max-width: 600px;
+}
+
+.intro-text p {
+  font-size: 20px;
+  margin-left: 0%;
+  max-width: 500px;
+  color: #030303;
+}
+
+.intro-photo img {
+  flex: 1;
+  width: 450px;
+  max-width: 100%;
+  margin-left: 1.2rem;
+  margin-bottom: 20%;
+}
+
+.home-photo:hover img {
+  transform: scale(1.1);
+  transition: transform 0.4s ease;
+}
+
+*/-- social media icons
+
+.social-links {
+  display: flex;
+  justify-content: 'flex-start';
+  margin-left: 10%;
+  margin-top: 20px;
+  gap: 0.61rem;
+}
+
+.social-links a {
+  color: orange;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: orange;
+  transition: color 0.3s ease;}
+
+
+/* === ABOUT SECTION === */
+#about-me {
+  padding: 1rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  gap: 10rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: nowrap; /* allows responsiveness */
+}
+
+.about-text {
+  flex: 1;
+  max-width: 600px;
+}
+
+.about-text h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2a3a4b;
+  margin-bottom: 1rem;
+}
+
+.about-text p {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: #617e9c;
+}
+
+.about-photo {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.about-photo img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* === SKILLS SECTION === */
+#skills {
+  background-color:rgb(255, 253, 244);;
+  padding: 4rem 2rem;
+}
+
+.skills-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.skills-container h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2a3a4b;
+  margin-bottom: 2rem;
+}
+
+/* 3-column layout */
+.skills-columns {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Each skill block */
+.skill-group {
+  flex: 1;
+  min-width: 250px;
+  background-color:rgb(255, 253, 244);;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+
+/* Group headings */
+.skill-group h2 {
+  font-size: 1.25rem;
+  color: #4e7096;
+  margin-bottom: 1rem;
+}
+
+/* List styles */
+.skill-group ul {
+  list-style-type: disc;
+  padding-left: 1.25rem;
+}
+
+.skill-group li {
+  font-size: 1rem;
+  color: #2a3a4b;
+  margin-bottom: 0.5rem;
+}
+
+
+/* === Datartvelo section === */
+
+#datartvelo {
+  padding: 4rem 2rem;
+  background-color: rgb(255, 253, 244);
+}
+
+.datartvelo-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.datartvelo-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #2a3a4b;
+}
+
+.datartvelo-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #2a3a4b;
+}
+
+.datartvelo-text p {
+  margin-bottom: 1rem;
+  color: #7785ad;
+}
+
+.datartvelo-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.chart-card {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.chart-card:hover {
+  transform: scale(1.03);
+}
+
+.chart-card img {
+  width: 100%;
+  display: block;
+}
+
+
+
+/* === CONTACT SECTION === */
+#contact {
+  background-color: rgb(255, 253, 244);
+  padding: 4rem 2rem;
+}
+
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-text h1 {
+  font-size: 2.5rem;
+  color: #2a3a4b;
+  margin-bottom: 1rem;
+}
+
+.contact-text p {
+  color: #555e70;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.contact-form button {
+  background-color: #2a3a4b;
+  color: rgb(255, 253, 244);
+  padding: 1rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #3d5268;
+}
+/* === FOOTER === */
+.site-footer {
+  background-color: rgb(255, 253, 244);;
+  padding: 1.5rem 2rem;
+  text-align: center;
+  border-top: 0px solid #ddd;
+  margin-top: 0rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-socials {
+  margin-top: 0.5rem;
+}
+
+.footer-socials a {
+  color: #666;
+  margin: 0 0.5rem;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.footer-socials a:hover {
+  color: #000;
+}
+                
