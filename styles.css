@@ -65,7 +65,11 @@ nav li:hover{
     text-transform: initial;
     font-weight: bold;
     color: rgb(255, 255, 255);
+<<<<<<< HEAD
     background-color: rgb(255, 255, 255);
+=======
+    background-color: rgb(243, 19, 19);
+>>>>>>> cc9bafdc4c69d3424fefba532c1d6ae712153cdb
     transition: background-color 0.3s ease;
 }
 
